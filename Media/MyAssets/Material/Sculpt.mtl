@@ -1,0 +1,21 @@
+[material]
+
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+
+FaceColorMap        = $CODETEXTURE0
+ColorControlMap     = $CODETEXTURE1
+FeatureMap          = $CODETEXTURE2
+ColorTransferMap	= $CODETEXTURE3
+SkinMask			= $CODETEXTURE4
+OtherHeadTexture    = $CODETEXTURE5
+
+VertexShaderFile    = SculptFace.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_5_0
+
+PixelShaderFile     = SculptFace.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_5_0
+
+RenderStateFile     = SculptRenderStates.rs

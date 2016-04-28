@@ -1,0 +1,19 @@
+[material0]
+SpriteTexture			= arial_64_0.dds
+cbGUIConstants = $cbGUIConstants
+
+RenderStateFile = GUIRenderState.rs
+
+VertexShaderFileOGL_1 = GUI_Element.glsl
+FragmentShaderFileOGL_1 = GUI_Element.glsl
+
+VertexShaderFile = GUI_Element.fx
+VertexShaderMain = VS
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile = GUI_Element.fx
+PixelShaderMain = PS
+PixelShaderProfile = ps_4_0
+
+[defines0]
+TEXTURED = 1

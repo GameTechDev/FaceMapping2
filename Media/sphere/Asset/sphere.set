@@ -1,0 +1,18 @@
+// Created with FBXConvert.exe: Tue Sep 15 16:37:15 2015
+[node 0]
+type = model
+name = pSphere1
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = -0 1 -0 0
+matrixRow2 = 0 0 1 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = -0 0 0
+position = 0 0 -0
+BoundingBoxCenter = 3.814697265625e-006 0 -1.9073486328125e-006 
+BoundingBoxHalf = 49.99999618530273 50 49.9999942779541 
+meshcount = 1
+material0 = BaseMaterial %shadowCast
+//Duration: ( 46877400 ns)
+// FBXConvert.exe Finished: Tue Sep 15 16:37:15 2015

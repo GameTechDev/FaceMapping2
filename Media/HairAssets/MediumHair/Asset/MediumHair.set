@@ -1,0 +1,16 @@
+// Created with FBXConvert.exe: Fri Mar 25 11:26:28 2016
+[node 0]
+type = model
+name = HairMedium
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = -0 1 -0 0
+matrixRow2 = 0 0 1 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = -0 0 0
+position = 0 0 -0
+BoundingBoxCenter = 1.494649887084961 5.093949794769287 2.904500007629395 
+BoundingBoxHalf = 13.78695011138916 15.18994951248169 13.63510036468506 
+meshcount = 1
+material0 = dx11ShaderPunchout NULL dx11Shader1

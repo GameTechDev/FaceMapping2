@@ -1,0 +1,19 @@
+[material0]
+SpriteTexture			= $shadow_depth
+cbGUIConstants			= $cbGUIConstants
+
+RenderStateFile			= GUIRenderState.rs
+
+VertexShaderFileOGL_1   = GUI_Sprite.glsl
+FragmentShaderFileOGL_1 = GUI_Sprite.glsl
+
+VertexShaderFile    = GUI_Sprite.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = GUI_Sprite.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+[defines0]
+textured = 1

@@ -1,0 +1,20 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+_Shadow			 = $shadow_depth
+BaseTexture	 = landmarkheadtexture.png
+
+VertexShaderFile    = landmarkEditHeadModel.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = landmarkEditHeadModel.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = landmarkEditHeadModel.rs
+[externals]
+gSpecExpon = 30 
+gSurfaceColor = 1 0.0334232 0
+Kd = 0.2 
+Ks = 0.4 
+gLamp0Color = 1 1 1 1
+gAmbiColor = 0.07 0.07 0.07 1

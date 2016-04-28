@@ -1,0 +1,9 @@
+[material]
+VertexShaderFile    = HeadShader.fx
+VertexShaderMain    = VSWireFrame
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = HeadShader.fx
+PixelShaderMain     = PSWireFrame
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = WireframeRenderStates.rs
+

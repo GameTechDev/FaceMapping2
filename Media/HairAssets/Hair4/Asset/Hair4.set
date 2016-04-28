@@ -1,0 +1,18 @@
+// Created with FBXConvert.exe: Tue Apr 26 11:07:21 2016
+[node 0]
+type = model
+name = hair4
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = -0 0.9999999999999869 -1.629206849429459e-007 0
+matrixRow2 = 0 1.629206849429459e-007 0.9999999999999869 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = -1.629206849429465e-007 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0 3.182405471801758 2.725856304168701 
+BoundingBoxHalf = 8.204527854919434 13.55953598022461 10.41947221755981 
+meshcount = 1
+material0 = hair4_Braid NULL
+//Duration: ( 1497512100 ns)
+// FBXConvert.exe Finished: Tue Apr 26 11:07:22 2016

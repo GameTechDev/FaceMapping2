@@ -1,0 +1,18 @@
+// Created with FBXConvert.exe: Tue Mar 29 13:35:09 2016
+[node 0]
+type = model
+name = LandmarkMesh
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0.0768761709332466 -0.00678540347144008 -3.67466412853901e-008 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0.0768761709332466 -0.00678540347144008 -3.67466412853901e-008
+BoundingBoxCenter = -0.01707983016967507 -12.02065896987915 -4.890905141830455 
+BoundingBoxHalf = 7.750186920166015 1.430511449740379e-006 11.33841729164125 
+meshcount = 1
+material0 = LandmarkMesh
+//Duration: ( 32023800 ns)
+// FBXConvert.exe Finished: Tue Mar 29 13:35:09 2016

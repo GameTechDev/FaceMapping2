@@ -1,0 +1,15 @@
+[material]
+cbPerModelValues = $cbPerModelValues 
+cbPerFrameValues = $cbPerFrameValues 
+_Shadow = $shadow_depth 
+VertexShaderFile    = %DefaultShader.fx
+VertexShaderFileOGL_1 = %DefaultShader.glsl
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_1
+PixelShaderFile     = %DefaultShader.fx
+PixelShaderMain     = PSMain
+FragmentShaderFileOGL_1 = %DefaultShader.glsl
+PixelShaderProfile  = ps_4_1
+RenderStateFile     = %Default.rs
+[externals]
+DiffuseColor = 0.5 0.5 0.5 1

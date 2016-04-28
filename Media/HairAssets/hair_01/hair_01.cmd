@@ -1,0 +1,1 @@
+FBXConvert.exe -input:hair_01.fbx -outputdir:../CPUT 

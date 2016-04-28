@@ -1,0 +1,17 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+TEXTURE0 = $CODETEXTURE0
+texture_DM = $CODETEXTURE0
+texture_SM = $CODETEXTURE1
+texture_NM = $CODETEXTURE2
+
+VertexShaderFile    = meshpreview.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = meshpreview.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = meshpreview.rs

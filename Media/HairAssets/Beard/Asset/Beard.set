@@ -1,0 +1,115 @@
+// Created with FBXConvert.exe: Mon Apr 25 18:31:58 2016
+[node 0]
+type = null
+name = ambientLight1
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = -0 1 -0 0
+matrixRow2 = 0 0 1 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = -0 0 0
+position = 0 0 -0
+[node 1]
+type = null
+name = directionalLight1
+parent = -1
+matrixRow0 = 0.9857217363551104 0.1484456389161822 -0.07947673095838889 0
+matrixRow1 = -0.1683824767517858 0.8690102186969504 -0.465261841679729 0
+matrixRow2 = 1.249000902703301e-015 0.4720011992432278 0.881597906028 0
+matrixRow3 = 0 -18.10966218855425 -0 1
+scale = 0.9999999999999997 1 0.9999999999999998
+rotation = -0.4855990707874298 0.07956063747406006 0.1494726687669754
+position = 0 -18.10966218855425 -0
+[node 2]
+type = model
+name = Base_Head
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0 0.04110288619995117 -0.001794338226318359 
+BoundingBoxHalf = 9.062287330627441 10.66129541397095 15.99921274185181 
+meshcount = 1
+material0 = Intel_Head_Mat NULL
+[node 3]
+type = model
+name = Chops
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0 -2.874480366706848 2.851854920387268 
+BoundingBoxHalf = 6.45419454574585 3.902253031730652 3.411723017692566 
+meshcount = 1
+material0 = Intel_Hair_Beard NULL
+[node 4]
+type = model
+name = moustache
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = -0.02599608898162842 -7.462123155593872 1.427581429481506 
+BoundingBoxHalf = 3.689986824989319 1.723685026168823 2.00772488117218 
+meshcount = 1
+material0 = Intel_Hair_Beard NULL
+[node 5]
+type = model
+name = SideBurns
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0 -2.15934956073761 -1.453086674213409 
+BoundingBoxHalf = 7.191766262054443 3.054345488548279 3.004829585552216 
+meshcount = 1
+material0 = Intel_Hair_Beard NULL
+[node 6]
+type = model
+name = SoulPatch
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 -0.2120301127433777 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 -0.2120301127433777 -0
+BoundingBoxCenter = -0.05712932348251343 -8.300361633300781 3.789709448814392 
+BoundingBoxHalf = 0.8918792605400085 0.3590536117553711 0.8604089021682739 
+meshcount = 1
+material0 = Intel_Hair_Beard NULL
+[node 7]
+type = model
+name = goatee
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0.06190109252929688 -5.731693148612976 4.762901186943054 
+BoundingBoxHalf = 3.907127380371094 2.624343037605286 2.586701035499573 
+meshcount = 1
+material0 = Intel_Hair_Beard NULL
+//Duration: ( 697069700 ns)
+// FBXConvert.exe Finished: Mon Apr 25 18:31:58 2016

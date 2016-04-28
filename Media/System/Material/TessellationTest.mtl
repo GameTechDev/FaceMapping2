@@ -1,0 +1,15 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+VertexShaderFile    = teapot.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = teapot.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+VertexShaderFileOGL_1 = %icosahendron.glsl
+FragmentShaderFileOGL_1 = %icosahendron.glsl
+RenderStateFile     = %Default.rs
+ControlShaderFileOGL_1 = %icosahendron.glsl
+EvaluationShaderFileOGL_1 = %icosahendron.glsl
+GeometryShaderFileOGL_1 = %icosahendron.glsl

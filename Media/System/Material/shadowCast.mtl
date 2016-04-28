@@ -1,0 +1,16 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+ReceiveShadows      = false
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+_Shadow			 = $shadow_depth
+
+VertexShaderFile    = %shadowCast.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+VertexShaderFileOGL_1    = %ShadowCastOGL.glsl
+FragmentShaderFileOGL_1  = %ShadowCastOGL.glsl
+
+RenderStateFile     = %shadowCast.rs

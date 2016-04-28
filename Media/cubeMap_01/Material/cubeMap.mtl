@@ -1,0 +1,21 @@
+[material]
+cbPerModelValues = $cbPerModelValues 
+cbPerFrameValues = $cbPerFrameValues 
+_Shadow = $shadow_depth 
+EnvironmentTexture = filtered.dds
+//EnvironmentTexturesRGB = true
+//EnvironmentTexture = cube_01_RT.dds
+VertexShaderFile    = CubeMapViz.fx
+VertexShaderFileOGL_1 = CubeMapViz.glsl
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_1
+PixelShaderFile     = CubeMapViz.fx
+PixelShaderMain     = PSMain
+FragmentShaderFileOGL_1 = CubeMapViz.glsl
+PixelShaderProfile  = ps_4_1
+RenderStateFile     = Opaque.rs
+[externals]
+SampleLevelExplicit = true
+SampleLevelBias = 0
+SampleLevelValue = 4
+LockToCamera = 1

@@ -1,0 +1,12 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+
+VertexShaderFile    = debugquad.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = debugquad.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = %sprite.rs

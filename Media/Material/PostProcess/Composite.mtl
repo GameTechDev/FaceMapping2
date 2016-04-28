@@ -1,0 +1,16 @@
+ReceiveShadows      = false
+
+texture0            = $PostProcessDownsample4x4
+texture1            = $BackBufferRT
+texture2            = $PostProcessRT1x1
+
+VertexShaderFile    = PostProcess/PostProcess.hlsl
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = PostProcess/PostProcess.hlsl
+PixelShaderMain     = CompositePS
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = PostProcess/Default.rs
+

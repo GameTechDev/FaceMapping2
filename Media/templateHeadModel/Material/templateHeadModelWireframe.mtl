@@ -1,0 +1,11 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+
+VertexShaderFile    = templateHeadModel.fx
+VertexShaderMain    = VSMainWireframe
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = templateHeadModel.fx
+PixelShaderMain     = PSMainWireframe
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = templateHeadModelWireframe.rs

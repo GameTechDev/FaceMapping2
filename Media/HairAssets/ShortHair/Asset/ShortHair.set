@@ -1,0 +1,18 @@
+// Created with FBXConvert.exe: Tue Apr 26 12:01:37 2016
+[node 0]
+type = model
+name = ShortHair
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = -0 1 -0 0
+matrixRow2 = 0 0 1 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = -0 0 0
+position = 0 0 -0
+BoundingBoxCenter = -1.502037048339844e-005 7.555593132972717 0.3013124465942383 
+BoundingBoxHalf = 7.697823762893677 10.73080289363861 10.47074222564697 
+meshcount = 1
+material0 =  dx11ShaderPunchout NULL dx11Shader5
+//Duration: ( 1501066400 ns)
+// FBXConvert.exe Finished: Tue Apr 26 12:01:39 2016

@@ -1,0 +1,12 @@
+[material]
+VertexShaderFile    = HeadShader.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = HeadShader.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = %DefaultRenderStates.rs
+
+TEXTURE0 = joe_sr300_1image1.dds
+
+

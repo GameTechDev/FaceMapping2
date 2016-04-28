@@ -1,0 +1,15 @@
+[material0]
+cbGUIConstants			= $cbGUIConstants
+Values				= $FPSTexture
+RenderStateFile			= GUIRenderState.rs
+
+VertexShaderFileOGL_1   = Visualize.glsl
+FragmentShaderFileOGL_1 = Visualize.glsl
+
+VertexShaderFile    = Visualize.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = Visualize.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0

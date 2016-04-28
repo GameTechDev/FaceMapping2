@@ -1,0 +1,1 @@
+FBXConvert.exe -input:box.fbx -outputdir:..\CPUT 

@@ -1,0 +1,10 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+ReceiveShadows      = false
+
+VertexShaderFile    = %shadowCast.fx
+VertexShaderMain    = VSMainSkinned
+VertexShaderProfile = vs_4_0
+
+RenderStateFile     = %shadowCast.rs

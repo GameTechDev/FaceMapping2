@@ -1,0 +1,1 @@
+FBXConvert.exe -input:MediumHair_Planes.fbx -outputdir:C:\LiquidDemo_update_2\test_scene 

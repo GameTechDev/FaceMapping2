@@ -1,0 +1,17 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+TEXTURE0 = circle.tif
+
+VertexShaderFile    = %sprite.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = %sprite.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+VertexShaderFileOGL_1    = %Sprite.vs
+FragmentShaderFileOGL_1  = %Sprite.ps
+
+RenderStateFile     = %sprite.rs

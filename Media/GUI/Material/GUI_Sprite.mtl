@@ -1,0 +1,18 @@
+[MATERIAL_0]
+SpriteTexture			= arial_16_0.dds
+cbGUIConstants			= $cbGUIConstants
+
+RenderStateFile			= GUIRenderState.rs
+
+VertexShaderFileOGL_1   = GUI_Sprite.glsl
+FragmentShaderFileOGL_1 = GUI_Sprite.glsl
+
+VertexShaderFile    = GUI_Sprite.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = GUI_Sprite.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+[defines0]

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\SampleStart.cpp" />
+    <ClCompile Include="..\..\windowsMain.cpp" />
+    <ClCompile Include="..\..\Menu\MenuGlob.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Menu\MenuController.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Menu\Menu_Scan.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Menu\Menu_FaceScanPreview.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameFaceScan.cpp" />
+    <ClCompile Include="..\..\SampleUtil.cpp" />
+    <ClCompile Include="..\..\Menu\Menu_FaceMapping.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui\imgui_impl_dx11.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Facemap\CDisplacementMapStage.cpp">
+      <Filter>Facemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Facemap\CPipeline.cpp">
+      <Filter>Facemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Facemap\CHeadGeometryStage.cpp">
+      <Filter>Facemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CFaceModel.cpp" />
+    <ClCompile Include="..\..\Facemap\CHeadBlendStage.cpp">
+      <Filter>Facemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjLoader.cpp" />
+    <ClCompile Include="..\..\facemap\FaceMapUtil.cpp">
+      <Filter>Facemap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Menu\Menu_LandmarkEdit.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OBJExporter.cpp" />
+    <ClCompile Include="..\..\Facemap\CHairGeometryStage.cpp">
+      <Filter>Facemap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SampleStart.h" />
+    <ClInclude Include="..\..\Menu\MenuBase.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Menu\MenuGlob.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Menu\MenuController.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Menu\Menu_Scan.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Menu\Menu_FaceScanPreview.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameFaceScan.h" />
+    <ClInclude Include="..\..\SampleUtil.h" />
+    <ClInclude Include="..\..\Menu\Menu_FaceMapping.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CFaceModel.h" />
+    <ClInclude Include="..\..\imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\stb_rect_pack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\stb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\stb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui\imgui_impl_dx11.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Facemap\CDisplacementMapStage.h">
+      <Filter>Facemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Facemap\CPipeline.h">
+      <Filter>Facemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Facemap\CHeadGeometryStage.h">
+      <Filter>Facemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Facemap\CHeadBlendStage.h">
+      <Filter>Facemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ObjLoader.h" />
+    <ClInclude Include="..\..\facemap\FaceMapUtil.h">
+      <Filter>Facemap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Menu\Menu_LandmarkEdit.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OBJExporter.h" />
+    <ClInclude Include="..\..\Facemap\CHairGeometryStage.h">
+      <Filter>Facemap</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{4dba4833-24cb-4ac4-9c89-db3375d8cdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{37a68d4e-3605-46cd-9cb9-a31112778135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Facemap">
+      <UniqueIdentifier>{9491749c-07a1-4259-b8fa-9660a65d15b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="facescanDX.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico" />
+  </ItemGroup>
+</Project>

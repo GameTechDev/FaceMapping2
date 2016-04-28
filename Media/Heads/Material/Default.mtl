@@ -1,0 +1,5 @@
+multimaterial = true
+material0 = TexturedHead
+material1 = WireframeHead
+
+

@@ -1,0 +1,12 @@
+ControlTexture = atlas.png
+TextTexture = arial_16_0.png
+cbGUIValues = $cbGUIValues
+VertexShaderFile = GUIShaderDX.vs
+VertexShaderMain = VS
+VertexShaderProfile = vs_4_0
+VertexShaderFileOGL_1 = GUIShaderOGL.vs
+PixelShaderFile = GUIShaderDX.ps
+PixelShaderMain = PS
+PixelShaderProfile = ps_4_0
+FragmentShaderFileOGL_1 = GUIShaderOGL.ps
+RenderStateFile = GUIRenderState.rs

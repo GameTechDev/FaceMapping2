@@ -1,0 +1,18 @@
+// Created with FBXConvert.exe: Tue Apr 19 17:16:36 2016
+[node 0]
+type = model
+name = hair1_retopo
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0.02763938903808594 1.724029064178467 -8.377608090639114 
+BoundingBoxHalf = 8.383222579956055 9.657107830047607 9.268901079893112 
+meshcount = 1
+material0 = dx11Shader1 NULL
+//Duration: ( 226218700 ns)
+// FBXConvert.exe Finished: Tue Apr 19 17:16:36 2016

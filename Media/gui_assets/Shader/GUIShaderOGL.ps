@@ -1,0 +1,25 @@
+//#version 400
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+
+uniform sampler2D ControlTexture;
+uniform sampler2D TextTexture;
+
+in  vec2 Tex;
+in  vec4 Color;
+
+
+
+out vec4 fragColor; 
+
+void main(void) {
+	if(Tex.x > 0.0)
+		fragColor = texture(ControlTexture, Tex) * Color;
+	else
+		fragColor = texture(TextTexture, Tex*-1.0).r * Color;
+}
+
+

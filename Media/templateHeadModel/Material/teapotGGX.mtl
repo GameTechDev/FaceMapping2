@@ -1,0 +1,22 @@
+[material0]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+VertexShaderFileOGL_1 = teapot.glsl
+FragmentShaderFileOGL_1 = teapot.glsl
+VertexShaderFile    = teapotGGX.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = teapotGGX.fx
+PixelShaderMain     = PSMainGGX
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = %Default.rs
+[externals]
+gSpecExpon = 30 
+gSurfaceColor = 1 0.0334232 1
+Kd = 0.2 
+Ks = 0.4 
+gLamp0Color = 1 1 1 1
+gAmbiColor = 0.0 0.0 0.0 1
+roughness = 0.25
+metal = 0.0
+baseColor = 1 0.0334232 0

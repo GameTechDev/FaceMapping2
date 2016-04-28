@@ -1,0 +1,1 @@
+This folder, "Extras," contains components and files that a sample developer may find useful/desirable in their sample. These are not guaranteed to work as they are not necessarily validated against current builds of CPUT. Please see individual components for usage details.

@@ -1,0 +1,18 @@
+// Created with FBXConvert.exe: Tue Apr 26 11:07:06 2016
+[node 0]
+type = model
+name = hair3
+parent = -1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 6.123233995736766e-017 1 0
+matrixRow2 = 0 -1 6.123233995736766e-017 0
+matrixRow3 = 0 0 -0 1
+scale = 1 1 1
+rotation = 1.570796370506287 0 0
+position = 0 0 -0
+BoundingBoxCenter = 0.002614498138427734 3.231494665145874 -6.708265066146851 
+BoundingBoxHalf = 7.874262809753418 10.80762791633606 12.20331406593323 
+meshcount = 1
+material0 = hair3 NULL
+//Duration: ( 566517600 ns)
+// FBXConvert.exe Finished: Tue Apr 26 11:07:07 2016

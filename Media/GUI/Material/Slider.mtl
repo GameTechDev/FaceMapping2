@@ -1,0 +1,14 @@
+[material0]
+cbGUIConstants			= $cbGUIConstants
+RenderStateFile			= GUIRenderState.rs
+
+VertexShaderFileOGL_1   = Slider.glsl
+FragmentShaderFileOGL_1 = Slider.glsl
+
+VertexShaderFile    = Slider.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = Slider.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0

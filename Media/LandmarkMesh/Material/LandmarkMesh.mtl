@@ -1,0 +1,11 @@
+[material]
+cbPerModelValues = $cbPerModelValues
+cbPerFrameValues = $cbPerFrameValues
+
+VertexShaderFile    = %DefaultShader.fx
+VertexShaderMain    = VSMainNoTexture
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = LandmarkMesh.fx
+PixelShaderMain     = PSMainNoTexture
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = LandmarkMeshRenderStates.rs

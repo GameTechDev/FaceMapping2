@@ -1,0 +1,24 @@
+//--------------------------------------------------------------------------------------
+// Pixel Shader
+//--------------------------------------------------------------------------------------
+
+Texture2D ControlTexture: register( t0 );
+Texture2D TextTexture: register( t1 );
+SamplerState samLinear : register( s0 );
+
+struct PS_INPUT
+{ 
+    float4 Pos : SV_POSITION;    
+    float2 Tex : TEXCOORD;
+    float4 Color: COLOR;
+};
+
+float4 PS( PS_INPUT input) : SV_Target
+{
+	if(input.Tex.x > 0.0)	
+	    return ControlTexture.Sample( samLinear, input.Tex ) * input.Color;  
+	else
+		return TextTexture.Sample(samLinear, input.Tex*-1.0).r * input.Color;
+}
+
+

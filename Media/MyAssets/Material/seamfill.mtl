@@ -1,0 +1,13 @@
+[material0]
+
+TEXTURE0 = $CODETEXTURE0
+
+VertexShaderFile    = seamfill.hlsl
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = seamfill.hlsl
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = %Default.rs
