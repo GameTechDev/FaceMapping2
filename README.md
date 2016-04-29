@@ -11,6 +11,9 @@ The face mapping sample uses the Intel RealSense™ 3D Scan module to scan the use
 For detailed information on this sample, please visit:
 https://software.intel.com/en-us/articles/mapping-an-intel-realsense-sdk-face-scan-to-a-3d-head-model
 
+The previous version of the code sample is available here:
+https://github.com/GameTechDev/FaceMapping
+
 Build Instructions
 ==================
 The facescan2.sln solution should be built with Visual Studio 2012 or greater. There are 2 build configurations types available, the kind that support scanning faces, and the ones that only supports face mapping of a pre-scanned face. The configurations with the "_NO_RS" prefix don't support face scanning and can be built and run without the RealSense™ SDK or RealSense™ camera
@@ -22,7 +25,7 @@ Requirements
 - Intel® RealSense™ SDK (R5 release) or newer *
 - RealSense™ F200 or SR300 Camera*
 
-* These are only required for scanning new faces. The sample includes a single pre-scanned face.
+* These are only required for scanning new faces. The sample includes a single pre-scanned face for experimenting.
 
 The Intel® RealSense™ SDK can be download here:
 https://software.intel.com/en-us/intel-realsense-sdk/download
